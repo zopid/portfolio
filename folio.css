@@ -1,0 +1,174 @@
+body {
+    background-color: #000;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+
+  section {
+    padding: 80px 20px;
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    border-bottom: 2px solid #9a0202;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    color: #9a0202;
+  }
+
+  .navbar {
+    background-color: #000 !important;
+  }
+
+  .nav-link,
+  .navbar-brand {
+    color: #fff !important;
+  }
+
+  .nav-link:hover {
+    color: #9a0202 !important;
+    text-shadow: 0 0 5px #9a0202;
+  }
+
+  .btn-primary {
+    background-color: #9a0202;
+    color: #fff;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #c20404;
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+  }
+
+  .bg-dark {
+    background-color: #111 !important;
+  }
+
+  .card {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #9a0202;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #9a0202;
+    transition: 0.3s ease;
+  }
+
+  .form-control {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #9a0202;
+  }
+
+  .form-control::placeholder {
+    color: #aaa;
+  }
+
+  .social-icon {
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .social-icon:hover {
+    color: #9a0202;
+    transform: scale(1.2);
+  }
+
+  .lead {
+    color: #aaa;
+  }
+
+  span {
+    color: #9a0202;
+  }
+
+  .card-title {
+    color: #9a0202;
+  }
+
+  .text-success {
+    color: #9a0202 !important;
+  }
+  .main-photo-wrapper {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 20px #9a0202;
+  }
+  
+  .animated-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(154,2,2,0.4), transparent 70%);
+    filter: blur(12px);
+    animation: pulse 3s ease-in-out infinite;
+    z-index: 1;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    50% {
+      transform: scale(1.15);
+      opacity: 0.9;
+    }
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #9a0202 !important;
+  }
+  #about {
+    background-color: #111; /* dark background */
+    color: #fff;
+    padding: 60px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #about h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #e50914;
+    margin-bottom: 2rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+    opacity: 0.95;
+  }
+  
